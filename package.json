@@ -1,10 +1,12 @@
 {
   "name": "@harucode.ti/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI de contexto da HaruCode — docs, sync e status da empresa",
   "type": "module",
   "bin": {
-    "harucode": "./bin/harucode.js"
+    "harucode": "./bin/harucode.js",
+    "harucode-cli": "./bin/harucode.js",
+    "@harucode.ti/cli": "./bin/harucode.js"
   },
   "scripts": {
     "test": "vitest run",
