@@ -6,14 +6,14 @@ describe('fetcher', () => {
   it('should build correct raw URL for a file', () => {
     const url = buildRawUrl('empresa-status.md');
     expect(url).toBe(
-      'https://raw.githubusercontent.com/HaruCode/context/main/empresa-status.md'
+      'https://raw.githubusercontent.com/HaruCodeTI/context/main/empresa-status.md'
     );
   });
 
   it('should build correct raw URL for a nested path', () => {
     const url = buildRawUrl('Clientes/BR-Consult.md');
     expect(url).toBe(
-      'https://raw.githubusercontent.com/HaruCode/context/main/Clientes/BR-Consult.md'
+      'https://raw.githubusercontent.com/HaruCodeTI/context/main/Clientes/BR-Consult.md'
     );
   });
 

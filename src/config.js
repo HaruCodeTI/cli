@@ -6,7 +6,7 @@ import { dirname } from 'node:path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-export const VERSION = '1.0.1';
+export const VERSION = '1.0.2';
 export const DESCRIPTION = 'CLI de contexto da HaruCode — docs, sync e status da empresa';
 export const TAGLINE = 'Soluções tecnológicas';
 
@@ -20,7 +20,7 @@ export const CACHE_DIR = join(HARUCODE_DIR, 'cache');
 
 export const PACKAGE_STRUCTURAL_DIR = join(__dirname, 'docs', 'structural');
 
-export const GITHUB_REPO = 'HaruCode/context';
+export const GITHUB_REPO = 'HaruCodeTI/context';
 export const GITHUB_BRANCH = 'main';
 export const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}`;
 
