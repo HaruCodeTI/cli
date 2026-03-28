@@ -1,0 +1,31 @@
+{
+  "name": "@harucode/cli",
+  "version": "1.0.0",
+  "description": "CLI de contexto da HaruCode — docs, sync e status da empresa",
+  "type": "module",
+  "bin": {
+    "harucode": "./bin/harucode.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["harucode", "cli", "context"],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.4.1",
+    "clipboardy": "^4.0.0",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "marked": "^15.0.7",
+    "marked-terminal": "^7.3.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.1.1"
+  }
+}
