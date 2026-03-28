@@ -4,6 +4,7 @@ import { program } from 'commander';
 import { VERSION, DESCRIPTION } from '../src/config.js';
 import { initCommand } from '../src/commands/init.js';
 import { syncCommand } from '../src/commands/sync.js';
+import { contextCommand } from '../src/commands/context.js';
 
 program
   .name('harucode')
@@ -19,5 +20,14 @@ program
   .command('sync')
   .description('Atualiza docs voláteis do GitHub')
   .action(syncCommand);
+
+program
+  .command('context [doc]')
+  .description('Ver docs de contexto da empresa')
+  .option('--copy', 'Copiar conteúdo pro clipboard')
+  .option('--path', 'Mostrar caminho local do arquivo')
+  .option('--raw', 'Output sem formatação (markdown puro)')
+  .option('--cat <category>', 'Filtrar por categoria')
+  .action(contextCommand);
 
 program.parse();
