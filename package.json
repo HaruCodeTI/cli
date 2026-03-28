@@ -1,6 +1,6 @@
 {
   "name": "@harucode.ti/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI de contexto da HaruCode — docs, sync e status da empresa",
   "type": "module",
   "bin": {
@@ -14,7 +14,7 @@
     "node": ">=18.0.0"
   },
   "keywords": ["harucode", "cli", "context"],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "@clack/prompts": "^0.9.1",
     "bcryptjs": "^2.4.3",

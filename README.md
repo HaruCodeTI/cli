@@ -1,11 +1,11 @@
-# @harucode/cli
+# @harucode.ti/cli
 
 CLI de contexto da HaruCode — docs, sync e status da empresa.
 
 ## Instalação
 
 ```bash
-npx @harucode/cli init
+npx @harucode.ti/cli init
 ```
 
 ## Comandos
