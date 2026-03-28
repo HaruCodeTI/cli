@@ -1,5 +1,5 @@
 {
-  "name": "@harucode/cli",
+  "name": "@harucode.ti/cli",
   "version": "1.0.0",
   "description": "CLI de contexto da HaruCode — docs, sync e status da empresa",
   "type": "module",

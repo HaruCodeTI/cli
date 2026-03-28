@@ -25,7 +25,7 @@ export const GITHUB_BRANCH = 'main';
 export const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}`;
 
 // Hash bcrypt da senha de sócio — gerar com: npx bcryptjs hash <senha>
-export const SOCIO_PASSWORD_HASH = '$2a$10$PLACEHOLDER_HASH_REPLACE_BEFORE_PUBLISH';
+export const SOCIO_PASSWORD_HASH = '$2a$10$jLPLsicVdoIeSxTytrQE5eSHBNjP4Q/voz/wLnbUW/SURNaG.Tcbm';
 
 export const ROLES = {
   SOCIO: 'socio',
