@@ -1,0 +1,81 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="harucode skills" style="rounded=1;whiteSpace=wrap;fillColor=#a78bfa;fontColor=#ffffff;strokeColor=#7c3aed;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="280" y="20" width="220" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="Lista skills por categoria&#xa;com indicadores de estado&#xa;(instalada / atualizacao / nova)" style="rounded=1;whiteSpace=wrap;fillColor=#f3e8ff;strokeColor=#a78bfa;" vertex="1" parent="1">
+      <mxGeometry x="270" y="110" width="240" height="65" as="geometry"/>
+    </mxCell>
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="2" target="3" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="O que deseja fazer?" style="rhombus;whiteSpace=wrap;fillColor=#fff3cd;strokeColor=#ffc107;" vertex="1" parent="1">
+      <mxGeometry x="310" y="220" width="160" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="3" target="4" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Instalar por&#xa;categoria" style="rounded=1;whiteSpace=wrap;fillColor=#e3f2fd;strokeColor=#2196f3;" vertex="1" parent="1">
+      <mxGeometry x="80" y="340" width="130" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" value="Escolher&#xa;individuais" style="rounded=1;whiteSpace=wrap;fillColor=#e3f2fd;strokeColor=#2196f3;" vertex="1" parent="1">
+      <mxGeometry x="250" y="340" width="130" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="7" value="Atualizar&#xa;pendentes" style="rounded=1;whiteSpace=wrap;fillColor=#e3f2fd;strokeColor=#2196f3;" vertex="1" parent="1">
+      <mxGeometry x="420" y="340" width="130" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="Sair" style="rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+      <mxGeometry x="590" y="340" width="100" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="5" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="6" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="7" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="4" target="8" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="Seleciona categoria:&#xa;Produtividade / Comercial / Conteudo" style="rounded=1;whiteSpace=wrap;fillColor=#f3e8ff;strokeColor=#a78bfa;" vertex="1" parent="1">
+      <mxGeometry x="30" y="430" width="230" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="5" target="9" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" value="Multi-select:&#xa;marca skills desejadas" style="rounded=1;whiteSpace=wrap;fillColor=#f3e8ff;strokeColor=#a78bfa;" vertex="1" parent="1">
+      <mxGeometry x="215" y="430" width="200" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="6" target="10" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" value="Instalar em:&#xa;Global (~/.claude/skills/)&#xa;ou Projeto (.claude/skills/)" style="rounded=1;whiteSpace=wrap;fillColor=#fff3cd;strokeColor=#ffc107;" vertex="1" parent="1">
+      <mxGeometry x="190" y="530" width="230" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="9" target="11" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="10" target="11" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e10b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="7" target="11" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" value="Instala cada skill:&#xa;+ nova | upd atualizada | skip atual | skip modificada" style="rounded=1;whiteSpace=wrap;fillColor=#e3f2fd;strokeColor=#2196f3;" vertex="1" parent="1">
+      <mxGeometry x="170" y="640" width="270" height="55" as="geometry"/>
+    </mxCell>
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="11" target="12" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="13" value="Pronto! N novas . N atualizadas . N sem mudancas" style="rounded=1;whiteSpace=wrap;fillColor=#e8f5e9;strokeColor=#4caf50;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="170" y="740" width="270" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;" edge="1" source="12" target="13" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
