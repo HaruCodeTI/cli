@@ -16,7 +16,7 @@ A CLI distribui documentos de contexto e skills do Claude Code para a equipe da 
 - **Docs volateis** (status, clientes, pipeline) sao sincronizados de um repo privado no GitHub
 - **Skills** do Claude Code sao instaladas globalmente ou por projeto
 
-![Arquitetura](docs/images/architecture.png)
+![Arquitetura](https://raw.githubusercontent.com/HaruCodeTI/cli/main/docs/images/architecture.png)
 
 ## Comandos
 
@@ -35,7 +35,7 @@ A CLI distribui documentos de contexto e skills do Claude Code para a equipe da 
 
 ## Onboarding
 
-![Fluxo de Onboarding](docs/images/flow-onboarding.png)
+![Fluxo de Onboarding](https://raw.githubusercontent.com/HaruCodeTI/cli/main/docs/images/flow-onboarding.png)
 
 ## Skills
 
@@ -47,7 +47,7 @@ A CLI distribui documentos de contexto e skills do Claude Code para a equipe da 
 
 **Conteudo** — conteudo-instagram, conteudo-linkedin, conteudo-blog, calendario-editorial
 
-![Fluxo de Skills](docs/images/flow-skills.png)
+![Fluxo de Skills](https://raw.githubusercontent.com/HaruCodeTI/cli/main/docs/images/flow-skills.png)
 
 ## Flags
 
