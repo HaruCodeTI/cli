@@ -7,6 +7,7 @@ import { contextCommand } from '../src/commands/context.js';
 import { syncCommand } from '../src/commands/sync.js';
 import { statusCommand } from '../src/commands/status.js';
 import { whoamiCommand } from '../src/commands/whoami.js';
+import { skillsCommand, skillsInstallCommand, skillsUpdateCommand } from '../src/commands/skills.js';
 import { printBanner } from '../src/ui/banner.js';
 
 program
@@ -42,6 +43,24 @@ program
   .command('whoami')
   .description('Mostra seu perfil e configuração')
   .action(whoamiCommand);
+
+const skillsProgram = program
+  .command('skills')
+  .description('Gerenciar skills do Claude Code da HaruCode')
+  .option('--list', 'Listar skills sem menu interativo')
+  .option('--status', 'Mostrar só as skills instaladas')
+  .action(skillsCommand);
+
+skillsProgram
+  .command('install [skill]')
+  .description('Instalar skill específica ou por categoria')
+  .option('--cat <category>', 'Instalar todas de uma categoria')
+  .action(skillsInstallCommand);
+
+skillsProgram
+  .command('update')
+  .description('Atualizar skills com versão nova disponível')
+  .action(skillsUpdateCommand);
 
 // Show banner on --help
 program.on('--help', () => {
